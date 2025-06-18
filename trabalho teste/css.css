@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgba(0, 100, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+}
+
+nav a.doe {
+  background-color: brown;
+  border-radius: 8px;
+  color: white;
+}
+
+.hero {
+  background-image: url('istockphoto-462844145-612x612.jpg');
+  background-size: cover;
+background-repeat: repeat;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.fizemos {
+  margin:30px;
+}
+
+.hero .texto h1 {
+  font-size: 60px;
+  color: white;
+  line-height: 1.1;
+}
+
+.hero .texto .verde {
+  color: #00c96d;
+}
+
+.fizemos_h1 {
+    margin: 20 px;
+}
+
+.impacto {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+  background-image: url('fundo.jpg'); /* mesmo fundo da hero */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.texto-impacto {
+  width: 60%;
+}
+
+.texto-impacto h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.texto-impacto ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.8;
+  font-size: 18px;
+    color: black;
+}
+
+.caixa-dados {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #800000;
+  padding: 20px;
+  border-radius: 20px;
+  width: 35%;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.caixa-dados p {
+  margin: 10px 0;
+  color: #800000;
+}
